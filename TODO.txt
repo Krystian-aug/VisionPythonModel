@@ -1,0 +1,15 @@
+Rozbudować i zabezpieczyć przed przypadkami brzegowymi jak np. brak postaci na zdjęciu mapper i cały przepływ YOLO, dostosowanie odpowiednich key_points wraz z confidence
+Dodać normalizację wielkości zdjęcia i dodać obsługę wielu rozmiarów zdjęć, tak żeby wszystko działało
+Dodać walidację danych werjściowych i zabezpieczyć kontrollery
+Obsługa błędów modelu YOLO
+
+
+Dodać własny model i wytrenować go za pomocą ręcznie ustalonych "prawdziwych" danych
+Dodać ścieżkę w pythonie, odpowiedzialną za system porównawczy i generujący statystyki:
+-uruchamia YOLO, uruchamia mojego, porównuje oba z danymi "prawdziwymi"
+
+
+
+Pododawać testy automatyczne przez pytest
+Pododawać testy endpointów
+Pododawać logowanie INFO logging
