@@ -1,2 +1,7 @@
 python -m uvicorn main:app --reload
 git branch -u origin/main
+
+
+
+docker build --no-cache -t python-ai-server:cpu .
+docker save -o python-ai-server.tar python-ai-server:cpu

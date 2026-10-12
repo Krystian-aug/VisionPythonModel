@@ -29,3 +29,23 @@ dataset/
 # Temporary files
 tmp/
 temp/
+
+# Ultralytics / YOLO
+runs/
+wandb/
+mlruns/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Tests and cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Additional IDE
+.vscode/
